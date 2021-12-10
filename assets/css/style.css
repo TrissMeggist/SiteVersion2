@@ -1,0 +1,142 @@
+
+
+body{
+    margin: 0;
+    font-family: 'focus-regular', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:black;
+}
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+}
+
+ h1,h2,h3,h4,h5,h6{
+     margin: 0;
+ }
+
+
+
+    /*  Container   */
+
+    .container{
+     width: 100%;
+     max-width: 1170px;
+     margin: 0 auto;
+    }
+
+    /*  Intro */
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background: url("../images/intro.png") center no-repeat;
+        background-size: cover;
+    }
+
+    .intro__inner{
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .intro__title{
+        font-size: 90px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.3;
+        color: #ffffff;
+        font-family: 'Marck Script', cursive;
+    }
+
+    /*  Header */
+    .header{
+        padding-top:10px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .header__bg{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index:-1;
+    }
+
+.header__decorate{
+    width: 100%;
+    position: fixed;
+    top: 460px;
+    left: 635px;
+}
+
+    .logo{
+        z-index: 10;
+    }
+
+    .header__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        z-index:100;
+    }
+
+    /*  Nav */
+    .nav{
+        font-size: 16px;
+        font-family: 'focus-regular', sans-serif;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+
+    .nav__link{
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 20px;
+        color: #fff;
+        text-decoration:none;
+        transition: color 0.3s linear;
+        z-index: 10;
+    }
+
+    .nav__link:hover{
+        color: #fb5231;
+        z-index: 10;
+    }
+
+    /*  Button */
+    .book_btn{
+        display:inline-block;
+        vertical-align: center;
+        padding: 8px 55px;
+        background: rgba(251, 82, 49, 0.75);
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        top: 560px;
+
+    }
+    .call_btn{
+        display:inline-block;
+        vertical-align: center;
+        padding: 8px 55px;
+        border: 5px #ffffff;
+        background: rgba(255, 255, 255, 0.5);
+
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        top: 560px;
+    }
