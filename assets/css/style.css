@@ -7,12 +7,12 @@ body{
     line-height: 1.6;
     color:black;
 }
+
  *,
  *:before,
  *:after {
      box-sizing: border-box;
 }
-
  h1,h2,h3,h4,h5,h6{
      margin: 0;
  }
@@ -20,7 +20,6 @@ body{
 
 
     /*  Container   */
-
     .container{
      width: 100%;
      max-width: 1170px;
@@ -37,13 +36,11 @@ body{
         background: url("../images/intro.png") center no-repeat;
         background-size: cover;
     }
-
     .intro__inner{
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
     }
-
     .intro__title{
         font-size: 90px;
         font-weight: 700;
@@ -62,28 +59,17 @@ body{
         left: 0;
         right: 0;
         z-index: 1000;
+        background:url("../images/bgHeader.png")center no-repeat;
     }
-
-    .header__bg{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index:-1;
-    }
-
-.header__decorate{
+    .header__decorate{
     width: 100%;
     position: fixed;
     top: 460px;
     left: 635px;
 }
-
     .logo{
         z-index: 10;
     }
-
     .header__inner{
         display: flex;
         justify-content: space-between;
@@ -98,7 +84,6 @@ body{
         text-transform: uppercase;
         z-index: 10;
     }
-
     .nav__link{
         display: inline-block;
         vertical-align: top;
@@ -108,35 +93,63 @@ body{
         transition: color 0.3s linear;
         z-index: 10;
     }
-
     .nav__link:hover{
         color: #fb5231;
         z-index: 10;
     }
+    .fab{
+        color:gray;
+        font-size: 20px;
+        transition: color .3s linear;
+        margin: 0 7px;
+    }
+    .fab:hover{
+        color: pink;
+    }
 
     /*  Button */
     .book_btn{
-        display:inline-block;
-        vertical-align: center;
-        padding: 8px 55px;
+        position: absolute;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 230px;
+        padding: 10px 55px;
+        border: 1px solid rgba(251, 82, 49, 0.6);
         background: rgba(251, 82, 49, 0.75);
         color: white;
         font-size: 18px;
         font-weight: 700;
         text-decoration: none;
-        top: 560px;
+        top: 580px;
+        left: 510px;
+        transition: color .3s linear;
 
     }
     .call_btn{
-        display:inline-block;
-        vertical-align: center;
-        padding: 8px 55px;
-        border: 5px #ffffff;
-        background: rgba(255, 255, 255, 0.5);
-
+        position: absolute;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 230px;
+        padding: 10px 55px;
+        border: 1px solid #ffffff;
+        background: rgba(255, 255, 255, 0.2);
         color: white;
         font-size: 18px;
         font-weight: 700;
         text-decoration: none;
-        top: 560px;
+        top: 580px;
+        left: 780px;
+        transition: color .3s linear;
+    }
+    .call_btn:hover{
+        background: rgba(255, 255, 255, 0.5);
+        color: black;
+    }
+    .book_btn:hover{
+        background: #fb5231;
+        color: black;
     }
