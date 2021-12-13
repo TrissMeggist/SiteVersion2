@@ -162,7 +162,6 @@ body{
         width: 100%;
         height: 100vh;
     }
-
     .about{
         padding: 100px;
         width: 100%;
@@ -171,13 +170,10 @@ body{
         text-align: center;
 
     }
-
     .If_you{
         width: 100%;
-        max-width: 950px;
         margin: 0 auto;
     }
-
     .story{
         font-family: 'Marck Script', cursive;
         font-size: 36px;
@@ -187,3 +183,105 @@ body{
     }
 
     /*  Ingredients */
+    .section_Ingredients{
+        background: url("../images/BGIngredients.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .ingredients{
+        padding: 150px;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+        left: 700px;
+    }
+    .Fine_ingredients{
+        font-family: 'Marck Script', cursive;
+        font-size: 36px;
+        color: #ffffff;
+    }
+    .Ingredients_text{
+        width: 100%;
+        max-width: 400px;
+        color: white;
+    }
+
+    /*  Menu */
+    .section_menu{
+        background: url("../images/BGMenu.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .THead{
+        font-family: 'Marck Script', cursive;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .MHead{
+        text-align: center;
+    }
+    .menu_block{
+        color: white;
+        font-size: 14px;
+    }
+    .Mname{
+        font-size: 17px;
+        width: 500px;
+    }
+    .Price{
+        float: right;
+        letter-spacing: 0.1em;
+
+    }
+    .Special{
+        font-size: 10px;
+        background-color: rgba(251, 82, 49, 0.89);
+        padding: 4px;
+        vertical-align: top;
+    }
+    .line{
+        border: 0;
+        height: 1px;
+        background-color: rgba(251, 82, 49, 0.4);
+    }
+    .MGroup1{
+        position: relative;
+        top: 50px;
+        max-width: 500px;
+        max-height: 350px;
+        margin: 0 100px;
+    }
+    .MGroup2{
+        position: relative;
+        top: 60px;
+        max-width: 500px;
+        max-height: 350px;
+        margin: 0 100px;
+    }
+    .MGroup3{
+        position: absolute;
+        top: 50px;
+        max-width: 500px;
+        max-height: 350px;
+        margin: 2260px 800px;
+    }
+    .MGroup4{
+        position: absolute;
+        top: 50px;
+        max-width: 500px;
+        max-height: 350px;
+        margin: 2520px 800px;;
+    }
+
+    /*  Reviews */
+    .section_reviews{
+        background: url("../images/bgReviews.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
