@@ -49,6 +49,13 @@ body{
         color: #ffffff;
         font-family: 'Marck Script', cursive;
     }
+    .intro__decorate{
+    width: 50%;
+    position:absolute;
+    top: 460px;
+    left: 635px;
+
+}
 
     /*  Header */
     .header{
@@ -61,12 +68,6 @@ body{
         z-index: 1000;
         background:url("../images/bgHeader.png")center no-repeat;
     }
-    .header__decorate{
-    width: 100%;
-    position: fixed;
-    top: 460px;
-    left: 635px;
-}
     .logo{
         z-index: 10;
     }
@@ -77,79 +78,112 @@ body{
         z-index:100;
     }
 
-    /*  Nav */
-    .nav{
-        font-size: 16px;
-        font-family: 'focus-regular', sans-serif;
-        text-transform: uppercase;
-        z-index: 10;
+            /*  Nav */
+            .nav{
+                font-size: 16px;
+                font-family: 'focus-regular', sans-serif;
+                text-transform: uppercase;
+                z-index: 10;
+            }
+            .nav__link{
+                display: inline-block;
+                vertical-align: top;
+                margin: 0 20px;
+                color: #fff;
+                text-decoration:none;
+                transition: color 0.3s linear;
+                z-index: 10;
+            }
+            .nav__link:hover{
+                color: #fb5231;
+                z-index: 10;
+            }
+            .fab{
+                color:gray;
+                font-size: 20px;
+                transition: color .3s linear;
+                margin: 0 7px;
+            }
+            .fab:hover{
+                color: pink;
+            }
+
+            /*  Button */
+            .book_btn{
+                position: absolute;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                width: 230px;
+                padding: 10px 55px;
+                border: 1px solid rgba(251, 82, 49, 0.6);
+                background: rgba(251, 82, 49, 0.75);
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: none;
+                top: 580px;
+                left: 510px;
+                transition: color .3s linear;
+
+            }
+            .call_btn{
+                position: absolute;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                width: 230px;
+                padding: 10px 55px;
+                border: 1px solid #ffffff;
+                background: rgba(255, 255, 255, 0.2);
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: none;
+                top: 580px;
+                left: 780px;
+                transition: color .3s linear;
+            }
+            .call_btn:hover{
+                background: rgba(255, 255, 255, 0.5);
+                color: black;
+            }
+            .book_btn:hover{
+                background: #fb5231;
+                color: black;
+            }
+
+    /*  About */
+    .section_about{
+        background: url("../images/aboutBG.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
     }
-    .nav__link{
-        display: inline-block;
-        vertical-align: top;
-        margin: 0 20px;
-        color: #fff;
-        text-decoration:none;
-        transition: color 0.3s linear;
-        z-index: 10;
+
+    .about{
+        padding: 100px;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: center;
+
     }
-    .nav__link:hover{
+
+    .If_you{
+        width: 100%;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    .story{
+        font-family: 'Marck Script', cursive;
+        font-size: 36px;
         color: #fb5231;
-        z-index: 10;
-    }
-    .fab{
-        color:gray;
-        font-size: 20px;
-        transition: color .3s linear;
-        margin: 0 7px;
-    }
-    .fab:hover{
-        color: pink;
-    }
 
-    /*  Button */
-    .book_btn{
-        position: absolute;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 230px;
-        padding: 10px 55px;
-        border: 1px solid rgba(251, 82, 49, 0.6);
-        background: rgba(251, 82, 49, 0.75);
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        text-decoration: none;
-        top: 580px;
-        left: 510px;
-        transition: color .3s linear;
 
     }
-    .call_btn{
-        position: absolute;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 230px;
-        padding: 10px 55px;
-        border: 1px solid #ffffff;
-        background: rgba(255, 255, 255, 0.2);
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        text-decoration: none;
-        top: 580px;
-        left: 780px;
-        transition: color .3s linear;
-    }
-    .call_btn:hover{
-        background: rgba(255, 255, 255, 0.5);
-        color: black;
-    }
-    .book_btn:hover{
-        background: #fb5231;
-        color: black;
-    }
+
+    /*  Ingredients */
