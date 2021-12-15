@@ -105,7 +105,7 @@ body{
                 margin: 0 7px;
             }
             .fab:hover{
-                color: pink;
+                color: #fb5231;
             }
 
             /*  Button */
@@ -284,4 +284,152 @@ body{
         width: 100%;
         height: 100vh;
     }
+    .reviews{
+        text-align: center;
+        position: relative;
+        top: 250px;
+
+    }
+    .reviews_head{
+        font-family: 'Marck Script', cursive;
+        font-size: 36px;
+    }
+    .reviews_text{
+        font-size: 25px;
+
+    }
+    .reviews_guest{
+        font-family: 'Marck Script', cursive;
+        font-size: 41px;
+    }
+
+    /*  Reservations */
+    .section_reservations{
+        background: url("../images/bgReservations.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .reservations_IMG{
+        position: relative;
+        top: 120px;
+
+    }
+    .reservations_inf{
+        position: relative;
+        text-align: center;
+        max-width: 430px;
+        float: right;
+        top: -410px;
+        right: 50px;
+    }
+    .reserv_head{
+        font-family: 'Marck Script', cursive;
+        font-size:36px;
+        color: #fb5231;
+    }
+    .reservations_data{
+        float: right;
+        position: relative;
+        right:-400px;
+        top: -150px;
+        text-align: center;
+    }
+    .book2_btn{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 230px;
+        padding: 10px 55px;
+        border: 1px solid rgba(251, 82, 49, 0.6);
+        background: rgba(251, 82, 49, 0.75);
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: color .3s linear;
+        top: 40px;
+
+    }
+    .book2_btn:hover{
+        background: #fb5231;
+        color: black;
+    }
+    .reserv_table{
+        text-align: left;
+    }
+    tr,td{
+        padding-right: 30px;
+
+    }
+    th{
+        padding-top: 20px;
+    }
+    .teg{
+        font-size: 14px;
+        color: #fb5231;
+    }
+    .Inp{
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 14px;
+
+
+        color: #212529;
+        background: rgba(255, 255, 255, 0.5);
+
+        font-family:'focus-regular', sans-serif;
+        border: 1px solid #fb5231;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .Inp:focus{
+        color: #212529;
+        background-color: #fff;
+        border-color: #fb5231;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(251, 82, 49, 0.25);
+    }
+
+    /*  Footer */
+    .footer{
+        background: url("../images/bgFoot.png")center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 40vh;
+    }
+    .fas{
+        font-size: 20px;
+        transition: color .3s linear;
+    }
+    .fas:hover{
+        color: #fb5231;
+    }
+    .Block1{
+        position: relative;
+        text-align: center;
+        color: white;
+        top: 100px;
+        left: -500px;
+    }
+    .Block2{
+        position: relative;
+        text-align: center;
+        top:-60px;
+    }
+    .icons{
+        position: relative;
+        top: 25px;
+    }
+    .Block3{
+        position: relative;
+        width:100%;
+        max-width: 400px ;
+        text-align: center;
+        color: white;
+        top: -148px;
+        right:-1000px;
+    }
+
 
