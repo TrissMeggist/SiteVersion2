@@ -403,6 +403,13 @@ body{
         font-size: 20px;
         transition: color .3s linear;
     }
+    .fa-phone-alt{
+        font-size: 20px;
+        transition: color .3s linear;
+    }
+    .fa-phone-alt:hover{
+    color: #fb5231;
+}
     .fas:hover{
         color: #fb5231;
     }
